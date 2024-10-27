@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dev-container:
+    image: dev-container:latest
+    container_name: dev-container
+    volumes:
+      - type: bind
+        source: /Users/hshimizu/Documents/dev
+        target: /mount
+    stdin_open: true
+    tty: true
