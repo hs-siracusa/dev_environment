@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   dev-container:
-    image: dev-container:latest
+    image: dev_container:latest
     container_name: dev-container
     volumes:
       - type: bind
